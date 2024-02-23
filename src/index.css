@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .button{
+        @apply bg-black text-white px-20 py-2 text-sm rounded-md mt-14 hover:bg-white hover:text-black hover:border-gray-800 border-2 border-transparent hover:shadow-xl active:bg-slate-700 active:text-white
+    }
+    .container{
+        @apply flex max-w-[1080px] mx-auto items-center
+    
+    }
+    .box{
+        @apply h-10 w-10 border-2 shadow-md text-center pt-1 hover:cursor-pointer hover:bg-black hover:text-white border-black rounded-sm
+    }
+   
+}
